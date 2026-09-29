@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "exactOptionalPropertyTypes": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "target": "ES2022",
+    "types": ["node"],
+    "verbatimModuleSyntax": true
+  },
+  "include": [
+    "connectors/**/*.ts",
+    "core/**/*.ts",
+    "entrypoints/**/*.ts",
+    "missions/**/*.ts",
+    "skills/**/*.ts",
+    "tests/**/*.ts"
+  ]
+}
